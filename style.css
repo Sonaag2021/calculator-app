@@ -7,10 +7,9 @@
     border-bottom-width: 60px;
     border-radius: 50px;
     margin-top: 3%;
-    /* Glass morphism effect */
-    background-color: rgba(255, 255, 255, 0.05); /* Adjust background color and opacity */
-    backdrop-filter: blur(10px); /* Apply blur effect for glass-like appearance */
-    border: 10px solid rgba(255, 255, 255, 0.1); /* Add border to enhance glass effect */
+    background-color: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(10px);
+    border: 10px solid rgba(255, 255, 255, 0.1); 
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
   }
 
@@ -28,7 +27,6 @@
     border-radius: 50px;
   }
   
-  /* The circle on the bottom of the device */
   .calculator:after {
     content: '';
     display: block;
@@ -39,11 +37,11 @@
     bottom: 5px;
     transform: translate(-50%, -50%);
     background: #847c7c;
-    backdrop-filter: blur(20px); /* Apply blur effect for glass-like appearance */
+    backdrop-filter: blur(20px);
     border-radius: 10%;
   }
   
-  /* The screen (or content) of the device */
+  
   .calculator .content {
     width: 360px;
     height: 250px;
@@ -62,8 +60,8 @@
     font-size: 24px;
     border: none;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.5); /* Glass effect for numbers */
-    backdrop-filter: blur(10px); /* Apply blur effect for glass-like appearance */
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px); 
     text-align: right;
 }
 
@@ -83,7 +81,6 @@
     cursor: pointer;
     background-color: #f4226c;
     color: white;
-    /* Glass effect for buttons */
     background-color: rgba(231, 132, 203, 0.995);
     backdrop-filter: blur(10px);
 }
@@ -105,7 +102,6 @@
     background-color: #d32f2f;
 }
 
-/* Modal styles for history */
 .modal {
     display: none;
     position: fixed;
@@ -144,16 +140,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color:rgba(255, 255, 255, 0.05); /* Adjust background color and opacity */
-    backdrop-filter: blur(10px); /* Apply blur effect for glass-like appearance */
+    background-color:rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(10px);
     border-top-left-radius: 50px;
-    border-top-right-radius: 50px; /* Match top corners of the calculator */
+    border-top-right-radius: 50px; 
   }
   
   .navbar span {
     font-size: 14px;
     margin-right: 10px;
-    color: rgb(0, 0, 0); /* Adjust text color for better visibility */
+    color: rgb(0, 0, 0); 
   }
   
   .time {
@@ -162,67 +158,12 @@
 
   .wifi-signal,
   .battery {
-    color: #f4226c; /* Match button color for consistency */
+    color: #f4226c;
   }
-  
-/* .menu {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.menu-button {
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-} */
-
-/* .share-menu {
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    z-index: 1;
-    padding: 5px;
-} */
-
-/* .share-menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-} */
-
-/* .share-menu ul li {
-    padding: 10px;
-}
-
-.share-menu ul li:hover {
-    background-color: #f5f5f5;
-}
-
-.submenu {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.submenu.show {
-    display: block;
-} */
 
 body {
-    background-image: url('background2.jpg'); /* Replace 'background.jpg' with the path to your image */
-    background-size:auto; /* Ensure the background image covers the entire viewport */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-image: url('background2.jpg'); 
+    background-size:auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
